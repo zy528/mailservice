@@ -35,7 +35,6 @@ class ReportData:
             return results
         except:
             print "Error: unable to fecth data"
-    #注册用户城市分布
 
     def get_his_finance_manage_daily_data(self,spot_id,group_flag):
         sql = """
